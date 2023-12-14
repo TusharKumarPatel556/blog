@@ -1,0 +1,55 @@
+.header {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(93, 0, 151) 0%,
+    rgb(116, 44, 157) 100%
+  );
+  position: sticky;
+  top: 1px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+}
+.navlinks {
+  display: flex;
+}
+.navlinks div {
+  width: 100px;
+  margin: 0 10px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 9px;
+  box-shadow: 1px 1px 7px rgba(156, 156, 156, 0.515);
+  border-radius: 7px;
+  background: rgb(149, 0, 146);
+  background: linear-gradient(
+    146deg,
+    rgb(134, 0, 192) 0%,
+    rgb(211, 135, 234) 100%
+  );
+  cursor: pointer;
+}
+
+.navlink {
+  padding: 1px 10px;
+  color: white;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandlogo {
+  height: 100px;
+}

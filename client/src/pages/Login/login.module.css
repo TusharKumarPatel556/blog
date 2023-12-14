@@ -1,0 +1,7 @@
+.loginpage {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.289), rgba(0, 0, 0, 0.289)),
+    url(../../assets/images/home2.jpg);
+  background-size: 100% 100%;
+  object-fit: fill;
+}

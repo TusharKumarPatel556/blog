@@ -1,0 +1,84 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.registerform {
+  background-color: rgba(48, 47, 42, 0.463);
+  backdrop-filter: blur(10px);
+  padding: 20px 50px;
+  margin-bottom: 20px;
+  /* border: 1px solid rgb(218, 218, 218); */
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+  z-index: 2;
+  position: relative;
+}
+
+.registerform:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 82, 159);
+  filter: blur(100px);
+  left: -30%;
+  z-index: 1;
+}
+
+.registerform:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  filter: blur(100px);
+  right: -30%;
+  z-index: 1;
+}
+
+.inputcontainer {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.input {
+  height: 35px;
+  width: 300px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: yellow;
+}
+
+.input:focus {
+  outline: none;
+  color: white;
+  font-size: 18px;
+  transition: 1s;
+}
+
+.submitbtn {
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-image: linear-gradient(
+    190deg,
+    rgb(76, 166, 255),
+    rgb(54, 141, 255)
+  );
+  color: white;
+}
